@@ -28,7 +28,7 @@ Projeto para estudo das fucnionalidades de validação dos campos de um formulá
 
 #### Extra
 
--[ ] button Tema component formulário;
--[ ] API CEP component formulário;
--[ ] Confirmação de e-mail component formulário;
--[ ] Modal, após clique no botão cadastro component formulário;
+- [ ] button Tema component formulário;
+- [ ] API CEP component formulário;
+- [ ] Confirmação de e-mail component formulário;
+- [ ] Modal, após clique no botão cadastro component formulário;
