@@ -1,0 +1,48 @@
+.container{
+  border: 1px solid red;
+  padding: 1.5rem;
+}
+
+
+.campo{
+  border: 1px solid #e3dec5;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.legend{
+  margin-left: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: end;
+}
+
+.group{
+  text-align: start;
+}
+
+.tel{
+display: flex;
+paddin-bottom: 1rem;
+
+}
+.phone{
+
+}
+
+.campo input{
+  width: 90%;
+  /* background: red; */
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  border: none;
+}
+
+textarea:focus, input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+
+}
