@@ -6,7 +6,7 @@ Projeto para estudo das fucnionalidades de validação dos campos de um formulá
 
 #### Criação do componente page
   - [ ] header 
-      - [ ] h1 - title;
+      - [x] h1 - title;
       - [ ] bg - transparente, opaco white;
   - [ ] main 
       - [ ] bg - img;
@@ -17,9 +17,9 @@ Projeto para estudo das fucnionalidades de validação dos campos de um formulá
       - [ ] bg - opaco white;
 
 #### Criação do componente formulario
-  - [ ] fielset/legend/input nome;
-  - [ ] fielset/legend/input endereço;
-  - [ ] fielset/legend/input email;
+  - [x] fielset/legend/input nome;
+  - [x] fielset/legend/input endereço;
+  - [x] fielset/legend/input email;
   - [ ] fielset/legend/input tel;
   - [ ] fielset/legend/input nasc;
   - [ ] fielset/legend/input sexo;
