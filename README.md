@@ -28,7 +28,10 @@ Projeto para estudo das fucnionalidades de validação dos campos de um formulá
 
 #### Extra
 
-- [ ] button Tema component formulário;
+- [ ] button Tema component page;
 - [ ] API CEP component formulário;
 - [ ] Confirmação de e-mail component formulário;
 - [ ] Modal, após clique no botão cadastro component formulário;
+
+
+color: hsl(228, 45%, 44%);
