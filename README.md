@@ -1,6 +1,6 @@
 # Formulário
 
-Projeto para estudo das fucnionalidades de validação dos campos de um formulário de cadastro. 
+Projeto para estudo das funcionalidades de validação dos campos de um formulário de cadastro. 
 
 ### Lista de tarefas
 
