@@ -11,9 +11,9 @@ Projeto para estudo das funcionalidades de validação dos campos de um formulá
   - [ ] main 
       - [ ] bg - img;
   - [ ] footer 
-      - [ ] button - img Linkedin;
-      - [ ] button - img GitHub;
-      - [ ] <p> Copyright - Jennyfer Lamego</p>
+      - [x] button - img Linkedin;
+      - [x] button - img GitHub;
+      - [x] <p> Copyright - Jennyfer Lamego</p>
       - [ ] bg - opaco white;
 
 #### Criação do componente formulario
