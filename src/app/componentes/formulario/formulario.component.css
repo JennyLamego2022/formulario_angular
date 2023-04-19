@@ -11,6 +11,7 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   text-align: center;
   margin-bottom: 1rem;
+  padding: 0 0.5rem;
 }
 
 .legend{
@@ -34,12 +35,13 @@ paddin-bottom: 1rem;
 }
 
 .campo input{
-  width: 90%;
+  width: 100%;
   /* background: red; */
   justify-content: center;
   margin-bottom: 0.5rem;
   padding-left: 0.5rem;
   border: none;
+  background: transparent;
 }
 
 textarea:focus, input:focus {
@@ -47,3 +49,24 @@ textarea:focus, input:focus {
   outline: 0;
 
 }
+
+.dados{
+  display:flex;
+  justify-content: space-between;
+}
+
+.select{
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+.acao{
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+
+}
+
