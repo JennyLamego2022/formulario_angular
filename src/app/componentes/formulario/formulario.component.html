@@ -1,17 +1,29 @@
-<form action="" class="container">
+<form action="" class="container" (ngSubmit)="submit()" [formGroup]="momentForm" #formDir="ngForm">
   <div>
     <fieldset class="campo">
       <legend class="legend">Nome</legend>
-      <input type="text" placeholder="Digite seu nome completo">
+      <input type="text" placeholder="Digite seu nome completo" formControlName="name" required>
     </fieldset>
+    <div class="validation-error" *ngIf="name.invalid && formDir.submitted">
+      <p *ngIf="name.errors?.['required']">Nome é obrigatório.</p>
+    </div>
+
     <fieldset class="campo">
       <legend class="legend">E-mail</legend>
-      <input type="email" placeholder="Digite seu e-mail">
+      <input type="email" placeholder="Digite seu e-mail" formControlName="email">
     </fieldset>
+    <div class="validation-error" *ngIf="email.invalid && formDir.submitted">
+      <p *ngIf="email.errors?.['required']">E-mail é obrigatório.</p>
+    </div>
+
     <fieldset class="campo">
       <legend class="legend">Endereço</legend>
-      <input type="text" placeholder="Rua, estrada, avenida, etc.  - Número">
+      <input type="text" placeholder="Rua, estrada, avenida, etc.  - Número" formControlName="endereco">
     </fieldset>
+    <div class="validation-error" *ngIf="endereco.invalid && formDir.submitted">
+      <p *ngIf="endereco.errors?.['required']">Endereço é obrigatório.</p>
+    </div>
+
     <fieldset class="campo">
       <legend class="legend">Complemento</legend>
       <input type="text" placeholder="Qd., bloco, apto">
