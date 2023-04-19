@@ -1,0 +1,21 @@
+footer{
+  color:white;
+  /* border: 1px solid red; */
+  text-align: center;
+  margin: 2rem;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.links button{
+  cursor: pointer;
+}
+
+.copyheigth{
+  font-size: 0.8rem;
+}

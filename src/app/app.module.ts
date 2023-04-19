@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PageComponent } from './componentes/page/page.component';
 import { FormularioComponent } from './componentes/formulario/formulario.component';
+import { HeaderComponent } from './componentes/header/header.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PageComponent,
-    FormularioComponent
+    FormularioComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
