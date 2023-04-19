@@ -20,10 +20,10 @@ Projeto para estudo das funcionalidades de validação dos campos de um formulá
   - [x] fielset/legend/input nome;
   - [x] fielset/legend/input endereço;
   - [x] fielset/legend/input email;
-  - [ ] fielset/legend/input tel;
-  - [ ] fielset/legend/input nasc;
-  - [ ] fielset/legend/input sexo;
-  - [ ] button - cadastro
+  - [x] fielset/legend/input tel;
+  - [x] fielset/legend/input nasc;
+  - [x] fielset/legend/input sexo;
+  - [x] button - cadastro
 
 
 #### Extra
